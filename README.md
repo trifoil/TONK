@@ -22,7 +22,16 @@ Two variants
 
 ### Turret
 
+* Rotation motor
+* Elevation motor
+
 ### Others
+
+* Lights
+* Smoke
+* Optics
+* Dozer
+* Coax MG
 
 ## Embedded solutions 
 
