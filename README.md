@@ -4,3 +4,10 @@ Homemade RC tank
 ## Description 
 
 T84-120 Yatagan 
+
+## Embedded solutions 
+
+## 
+
+## Mechanical specs
+
