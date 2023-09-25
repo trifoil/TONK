@@ -5,9 +5,10 @@ Homemade RC tank
 
 T84-120 Yatagan 
 
+## Mechanical specs
+
 ## Embedded solutions 
 
 ## Software - Algoritms
 
-## Mechanical specs
 
