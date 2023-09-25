@@ -14,6 +14,8 @@ Two variants
 
 ### Propulsion
 
+Chose from one of the two following options :
+
 1) Electric
    Two AC or DC motors 
 
