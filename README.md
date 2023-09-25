@@ -14,7 +14,11 @@ Two variants
 
 ### Propulsion
 
+1) Electric
+   Two AC or DC motors 
 
+2) Electro-Diesel with turboprop
+   Based on the Wren turboprop. Should produce a good amount of power, with two drawbacks : consumption and noise
 
 ### Turret
 
