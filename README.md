@@ -53,12 +53,12 @@ A gyro is placed on the main gun and obviously follows the rotation fo the gun/t
 The hull can rotate on the three axis, depending on the terrain and how the vehicle moves.   
 
 The gimbal, however is only allowed to work on two axis :
-* azimuth angle (around z-axis)
-* elevation angle (around y-axis)
+* Azimuth angle (around z-axis)
+* Elevation angle (around y-axis)
 
 The sensors are 
-* the three axis inclinometer
-* angles sensors from the turret ring and gun elevation
+* The three axis inclinometer
+* Angles sensors from the turret ring and gun elevation
 
 The algorithm is quite tricky because we work with 3D.
 
