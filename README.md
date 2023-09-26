@@ -56,20 +56,27 @@ The gimbal, however is only allowed to work on two axis :
 * azimuth angle (around z-axis)
 * elevation angle (around y-axis)
 
-Knowing the orientation of the gun and the 
+The sensors are 
+* the three axis inclinometer
+* angles sensors from the turret ring and gun elevation
+
+The algorithm is quite tricky because we work with 3D.
+
+How it works :
+
+1) initial position  
+At first, the hull and turret are facing random orientations. 
+2) after moving the hull   
+Both hull and gun have changed orientations.
+3) final position    
+The correction is updated to the motors command to match the predicted angle on the azimuth and elevation
+
+Of course, this algorithm works every time the loop starts
 
 
-
-Help from chatGPT helped a bit here with the original prompt :
-
-```
-
-```
-Second prompt :
-```
-
-```
 
 ### Turret control algorithm
+
+Each loop, the desired position modification is updated from the receiver and added to the turret motors.
 
 ### Turret general algorithm
