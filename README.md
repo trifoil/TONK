@@ -40,6 +40,10 @@ Chose from one of the two following options :
 
 ## Embedded solutions 
 
+A gyro is placed on the main gun and obviously follows the rotation fo the gun/turret axis
+
+
+
 ## Software - Algoritms
 
 
