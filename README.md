@@ -64,11 +64,11 @@ The algorithm is quite tricky because we work with 3D.
 
 How it works :
 
-1) initial position  
+1) Initial position  
 At first, the hull and turret are facing random orientations. 
-2) after moving the hull   
+2) After moving the hull   
 Both hull and gun have changed orientations.
-3) final position    
+3) Final position    
 The correction is updated to the motors command to match the predicted angle on the azimuth and elevation
 
 Of course, this algorithm works every time the loop starts
