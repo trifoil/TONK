@@ -27,6 +27,8 @@ Chose from one of the two following options :
 
 ### Turret
 
+The turret main movement is constrained around two axis :
+
 * Rotation motor
 * Elevation motor
 
@@ -46,4 +48,28 @@ A gyro is placed on the main gun and obviously follows the rotation fo the gun/t
 
 ## Software - Algoritms
 
+### Turret stabilization simple algorithm
 
+The hull can rotate on the three axis, depending on the terrain and how the vehicle moves.   
+
+The gimbal, however is only allowed to work on two axis :
+* azimuth angle (around z-axis)
+* elevation angle (around y-axis)
+
+Knowing the orientation of the gun and the 
+
+
+
+Help from chatGPT helped a bit here with the original prompt :
+
+```
+
+```
+Second prompt :
+```
+
+```
+
+### Turret control algorithm
+
+### Turret general algorithm
