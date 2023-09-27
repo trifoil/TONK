@@ -88,3 +88,12 @@ Of course, this algorithm works every time the loop starts
 Each loop, the desired position modification is updated from the receiver and added to the turret motors.
 
 ### Turret general algorithm
+
+
+## Tips
+
+To permit the arduino software to use the USB ports of your computer while running linux, use
+
+```
+sudo chmod a+rw /dev/ttyUSB0
+```
