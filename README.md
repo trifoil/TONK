@@ -51,9 +51,10 @@ A gyro is placed on the main gun and obviously follows the rotation fo the gun/t
 ### Hull 
 
 Two configurations have to be available in the firmware :
-1) One for the electric config
-
-2) the other one for the turboprop config
+1) One for the electric config   
+   Simple input throttle come from the remote
+   They should be between -127 and +128, 0 meaning the track is not moving, the sign determining which direction the motor should rotate.
+3) the other one for the turboprop config   
    work in progress
 ### Turret stabilization simple algorithm
 
