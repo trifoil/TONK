@@ -48,6 +48,13 @@ A gyro is placed on the main gun and obviously follows the rotation fo the gun/t
 
 ## Software - Algoritms
 
+### Hull 
+
+Two configurations have to be available in the firmware :
+1) One for the electric config
+
+2) the other one for the turboprop config
+   work in progress
 ### Turret stabilization simple algorithm
 
 The hull can rotate on the three axis, depending on the terrain and how the vehicle moves.   
